@@ -202,8 +202,6 @@ export default function ThemeViewer({
     <SimpleTreeView
       key={key}
       slots={{
-        expandIcon: ExpandIcon,
-        collapseIcon: CollapseIcon,
         endIcon: CustomEndIcon,
       }}
       defaultExpandedItems={defaultExpanded}
